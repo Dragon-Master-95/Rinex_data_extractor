@@ -210,7 +210,10 @@ if __name__ == '__main__':
     mainloop()
     metadata, data = dataexrtactor(file_path)
     print (file_path)
-    name = file_path.split('/')[-1]
+    try:
+        name = file_path.split('/')[-1]
+    except:
+        name = file_path.split('\')[-1]
     data.to_csv(name+'_data.csv')
     with open(name+'_metadata.csv','w') as f:
         for line in metadata:
