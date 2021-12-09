@@ -32,9 +32,7 @@ required if the project is big.
 """
 
 #importing libararies 
-import sys
-import os
-import time
+
 import pandas as pd
 import numpy as np
 from tkinter import *
