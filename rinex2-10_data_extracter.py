@@ -213,7 +213,7 @@ if __name__ == '__main__':
     try:
         name = file_path.split('/')[-1]
     except:
-        name = file_path.split('\')[-1]
+        name = file_path.split('\\')[-1]
     data.to_csv(name+'_data.csv')
     with open(name+'_metadata.csv','w') as f:
         for line in metadata:
