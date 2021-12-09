@@ -3,6 +3,12 @@ This file extracts the data of Rinex file i.e., Pseudoranges, SNR/Signal, Dopple
 
 Currently the code is written in python3 for Rinex 2.10
 
+DEPENDENCIES-
+python3.8
+numpy==1.18.5
+pandas==1.1.2
+tkinter==8.6
+
 I would certainly like to write code for different versions of rinex file but I don't have data files and its format information.
 
 If you can provide data file and rinex format information of that perticular verion I will make the data extractor code for you.
