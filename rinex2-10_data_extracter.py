@@ -1,7 +1,7 @@
 """
 Rinex 2.10 data Extracter code 
 version-1.0
-Creator: Harsha Avinash Tanti aka Dragon Master
+Creator: Deepthi Ayyagari & Harsha Avinash Tanti aka Dragon Master
 
 This file extracts the data of Rinex file i.e., Pseudoranges,
 SNR/Signal, Doppler etc.
